@@ -1,0 +1,154 @@
+@media (min-width: 481px) {
+
+    .video-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .video-container img {
+        width: 230px;
+    }
+
+    #about {
+        padding: 0 10px;
+    }
+
+    #skill-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 512px) {
+    .video-container {
+        justify-content: start;
+    }
+
+    @media (min-width: 758px) {
+
+        .video-container {
+            justify-content: space-evenly;
+        }
+
+        #about {
+            padding: 0 30px;
+        }
+    }
+
+    @media (min-width: 900px) {
+
+        #navbar {
+            background-color: none;
+            z-index: 0;
+            padding: 0 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #menu {
+            display: none;
+        }
+
+        #sidebar {
+            background: none;
+            width: 200%;
+            position: relative;
+            height: 71px;
+            top: 24px;
+            margin-right: 30px;
+            padding: 0;
+        }
+
+        #nav-list {
+            flex-direction: row;
+        }
+
+        #nav-list li {
+            margin: 0;
+        }
+
+        #nav-list li a {
+            padding: 6px 15px;
+        }
+
+        hr {
+            display: none;
+        }
+
+        #home {
+            height: 470px;
+            flex-direction: row;
+            padding: 0 30px;
+        }
+
+        #home-left {
+            width: 50%;
+        }
+
+        #home-right {
+            width: 50%;
+            padding: 0;
+        }
+
+        #home-text .welcome {
+            font-size: 3rem;
+        }
+
+        #home-text .iam {
+            font-size: 2rem;
+        }
+
+        #home-right img {
+            width: 350px;
+        }
+
+        #work {
+            padding: 0 30px;
+        }
+
+        #about {
+            padding: 0 30px;
+        }
+    }
+
+    @media (min-width: 1000px) {
+
+        body {
+            border: 2px solid var(--color3);
+        }
+
+        #sidebar {
+            width: 125%;
+        }
+    }
+
+    @media (min-width: 1161px) {
+
+        #sidebar {
+            width: 90%;
+        }
+
+        .video-container img {
+            width: 300px;
+        }
+
+        #skill-container {
+            justify-content: start;
+        }
+    }
+
+    @media (min-width: 1200px) {
+
+        #sidebar {
+            width: 85%;
+        }
+    }
+
+    @media (min-width: 1600px) {
+        body {
+            border: 1px solid white;
+        }
+    }
+}
